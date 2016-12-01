@@ -2,7 +2,7 @@ import math, hashlib
 from collections import OrderedDict
 
 
-class HW4(object):
+class pwa(object):
     def __init__(self):
         self.inpFile = 'passwords-hw4'
         self.passwordTotal = 0
@@ -108,5 +108,5 @@ class HW4(object):
         with open("Q3B.txt", 'w') as oup:
             oup.write(round(self.uniqueMaxEntropy, 3).__str__())
 
-hw4 = HW4()
-hw4.main()
+pwa = pwa()
+pwa.main()
